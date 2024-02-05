@@ -1,0 +1,48 @@
+body {
+    background-color: darkgray;
+    user-select: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 3px solid indigo;
+    border-radius: 50%;
+    font-style: oblique;
+    font-weight: 700;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container {
+    margin-top: 10%;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border: 7px solid indigo;
+    background-color: black;
+}
+
+#timer {
+    margin-top: 5%;
+    width: 200px;
+    height: 45px;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid indigo;
+    background-color: white;
+}
+
+#buttons {
+    text-align: center;
+}
